@@ -33,7 +33,6 @@ The model was trained on a cassava leaf disease dataset containing labeled image
 <img width="1023" alt="image" src="https://github.com/user-attachments/assets/c8c52873-60c0-441c-97c5-fabfad1c6142">
 <img width="996" alt="image" src="https://github.com/user-attachments/assets/ae820d13-6a0d-492c-86a0-442ef9b45cdc">
 
-**Download link:** https://www.kaggle.com/c/cassava-leaf-disease-classification/data
 
 **Environment:** Kaggle
 
@@ -42,19 +41,18 @@ The model was trained on a cassava leaf disease dataset containing labeled image
 This project uses PyTorch for model development and training, along with standard data science libraries for preprocessing, analysis, and visualization.
 
 ### Libraries
-
+- PyTorch
 - pandas
+- scikit-learn
 - numpy
 - matplotlib
 - seaborn
-- scikit-learn
-- PyTorch
 
 ### Neural Network
 
 - ResNet-152 architecture
 
-**Accuracy:** 87%
+**Accuracy:** 89%
 
 ## Summary
 
