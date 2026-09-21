@@ -1,42 +1,61 @@
-# Cassava-Leaf-Disease-Detection---Image-Classification
-Welcome to the Cassava Leaf Disease Detection project! This repository provides a comprehensive guide to classifying cassava leaf diseases using deep learning techniques with PyTorch.
+# A Computer Vision Approach for Automated Identification of Cassava Diseases
+
+This project focuses on using computer vision and deep learning to automatically identify cassava diseases from leaf images. The goal is to support early detection and diagnosis, helping farmers and agricultural professionals act quickly to reduce crop loss.
+
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/3e6e7603-8331-4d7a-8fb1-426ccb104454">
 
-# Cassava Leaf Disease Detection - Image Classification
+## Project Overview
 
-# Project Information
+A machine learning model was trained to detect and classify cassava diseases using image data. The system successfully identifies the following conditions:
 
-The objective is to distinguish between several diseases that cause material harm to the food supply of many African countries. In some cases the main remedy is to burn the infected plants to prevent further spread, which can make a rapid automated turnaround quite useful to the farmers.
+- Cassava mosaic disease (CMD)
+- Cassava bacterial blight (CBB)
+- Cassava brown streak disease (CBSD)
 
-[train/test]_images the image files. The full set of test images will only be available to your notebook when it is submitted for scoring. Expect to see roughly 15,000 images in the test set.
+These diseases can severely affect cassava production, and early automated detection can help prevent further spread and improve crop management.
 
-### Attributes
+## Why This Matters
 
-image_id -  image file name.
+Cassava is a major staple crop in many African countries, and disease outbreaks can have a significant impact on food security and farmer livelihoods. Rapid disease recognition is crucial because some infected plants must be removed or managed quickly to prevent transmission.
 
-label - ID code for the disease.
+This project applies deep learning techniques to analyze leaf images and distinguish between disease patterns with a high level of accuracy.
 
-label_num_to_disease_map.json - The mapping between each disease code and the real disease name.
+## Dataset
+
+The model was trained on a cassava leaf disease dataset containing labeled images of healthy and diseased leaves. The dataset includes image files for the training and testing process, with disease labels mapped to their real names.
+
+### Data Attributes
+
+- image_id - image file name
+- label - ID code for the disease
+- label_num_to_disease_map.json - mapping between each disease code and the real disease name
 
 <img width="1023" alt="image" src="https://github.com/user-attachments/assets/c8c52873-60c0-441c-97c5-fabfad1c6142">
 <img width="996" alt="image" src="https://github.com/user-attachments/assets/ae820d13-6a0d-492c-86a0-442ef9b45cdc">
-
 
 **Download link:** https://www.kaggle.com/c/cassava-leaf-disease-classification/data
 
 **Environment:** Kaggle
 
-# Libraries
+## Model and Tools
+
+This project uses PyTorch for model development and training, along with standard data science libraries for preprocessing, analysis, and visualization.
+
+### Libraries
 
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - scikit-learn
-- pytorch
+- PyTorch
 
-# Neural Network
+### Neural Network
 
-- Resnet-152 Network
-  
-**Accuracy:** 87
+- ResNet-152 architecture
+
+**Accuracy:** 87%
+
+## Summary
+
+This repository demonstrates a practical computer vision approach for automated cassava disease identification. By training a deep learning model on leaf images, the project aims to support faster, more reliable diagnosis of cassava diseases in agricultural settings.
