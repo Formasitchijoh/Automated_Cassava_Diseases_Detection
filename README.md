@@ -1,7 +1,5 @@
 # A Computer Vision Approach for Automated Identification of Cassava Diseases
 
-Undergraduate project, University of Buea (B.Eng. Computer Engineering). Updated 2026.
-
 This project uses computer vision and deep learning to identify cassava diseases from leaf images. The goal is to support early detection so farmers can act before disease spreads and yields are lost.
 
 <img width="908" alt="Cassava disease detection overview" src="https://github.com/user-attachments/assets/3e6e7603-8331-4d7a-8fb1-426ccb104454">
