@@ -46,9 +46,6 @@ The model was trained on a labeled cassava leaf disease image dataset containing
 | Model | ResNet-152 (transfer learning) |
 | Accuracy | 89% |
 
-## What I Learned
-
-During a field test at the University of Buea farm, a student asked: "After it detects the disease, what next?" That question showed the limit of this project. Detection comes after the damage is done. Farmers need crop varieties that resist disease under their pest and climate conditions. This led me toward predictive modeling that combines crop genetics, climate, and pest data to identify resistant varieties, which is the focus of my further studies in data science.
 
 ## Repository Contents
 
